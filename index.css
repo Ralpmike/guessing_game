@@ -88,3 +88,10 @@ button:active {
   font-weight: bold;
   
 }
+#attempts, #correctGuess {
+  color: rgb(34, 23, 3);
+  font-size: 2rem;
+}
+#correctGuess {
+  color: black;
+}
