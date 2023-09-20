@@ -35,7 +35,7 @@ function play() {
     correctGuess++;
   }
   else if (valueEntered > randNum && valueEntered < 100) {
-    outPut.innerHTML = `Guess was too high! Right guess is: ${randNum}`;
+    outPut.innerHTML = `Guess was too high!`;
     outPut.style.color = "red";
     numberOfTrials.push(valueEntered)
     numOfIncorrectGuesses++
@@ -43,7 +43,7 @@ function play() {
     
   }
   else if (valueEntered < randNum && valueEntered > 1) {
-    outPut.innerHTML = `Guess was too low! Right guess is: ${randNum}`
+    outPut.innerHTML = `Guess was too low!`
     outPut.style.color = "red";
     numberOfTrials.push(valueEntered)
     numOfIncorrectGuesses++
