@@ -29,7 +29,7 @@ body {
 .container {
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  gap: 30px;
   align-items: center;
   justify-content: center;
   padding: 50px;
@@ -88,10 +88,15 @@ button:active {
   font-weight: bold;
   
 }
-#attempts, #correctGuess {
+#attempts, #correctGuess, #incorectguesses {
   color: rgb(34, 23, 3);
   font-size: 2rem;
 }
 #correctGuess {
   color: black;
+}
+#percentagePerfomed {
+  color: green;
+  font-size: 2rem;
+  font-weight: 600;
 }
