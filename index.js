@@ -71,7 +71,7 @@ function valueReset() {
 
 
 let timer = document.getElementById("timeValue")
-let timeSecond = 45;
+let timeSecond = 90;
 
 displayTime(timeSecond);
 
